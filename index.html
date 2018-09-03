@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-assets>
+            <img id="#logo" src="logo.png">
+        </a-assets>
+
+        <a-box position="-1.5 0.5 -3" height="0.5" rotation="0 0 0" debth="0.5" width="0.5" src="logo.png">
+            <a-animation attribute="rotation" repeat="indefinite" easing="ease-in" to="0 360 0"></a-animation>
+        </a-box>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="25" height="4" src="floor.jpeg"></a-plane>
+        <a-video position="0 3.7 -10" width="16" height="9"  src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Big_Buck_Bunny_first_23_seconds_1080p.ogv/Big_Buck_Bunny_first_23_seconds_1080p.ogv.360p.vp9.webm"></a-video>
+        <a-sky color="#ECECEC"></a-sky>
+        <!-- <a-collada-model position="1 0.3 -3" rotation="0 180 0" scale="0.05 0.05 0.05" src="#chair"></a-collada-model> -->
+
+        <a-gltf-model src="Wolf_01.gltf" rotation="0 180 0" position="0 0 -3" scale="0.05 0.05 0.05"></a-gltf-model>
+        <a-gltf-model src="Armchair_01.gltf" rotation="0 90 0" position="0.6 0 -3" scale="0.08 0.08 0.08"></a-gltf-model>
+    </a-scene>
+</body>
+
+</html>
