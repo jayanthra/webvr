@@ -1,2 +1,2 @@
-# webvr
-a frame demo
+# WEBVR
+Demo of virtual reality in web using A-frame
